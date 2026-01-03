@@ -12,11 +12,8 @@ The dataset consists of labeled emails categorized as spam or ham. Labels are co
 Email text is cleaned by:
 
 Converting text to lowercase
-
 Removing special characters and numbers
-
 Eliminating extra spaces
-
 This step improves model accuracy by reducing noise and standardizing input data.
 
 3. Feature Extraction using TF-IDF
@@ -32,11 +29,8 @@ A Scikit-learn Pipeline is used to combine text cleaning, vectorization, and mod
 The trained model is evaluated using:
 
 Accuracy score
-
 Confusion matrix
-
 Precision, recall, and F1-score
-
 These metrics help assess the effectiveness of the spam detection system.
 
 7.Model Export and Deployment Readiness
